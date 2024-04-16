@@ -1,16 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 <head>
-    <meta charset="UTF-8">
+    <!-- 為何會有後面那個/線呢 原因是因為如果希望XML/XHTML軟體存取您的頁面 需要那個斜線-->
+    <meta charset="UTF-8" />
     <meta name="keywords" content="連思凱, 前端工程師, lien, sky">
     <meta name="description" content="keep a diary for myself">
     <meta name="auther" content="Szu-Kai Lien">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SzuKai Personal Page</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="myscript.js"></script>
+    <title>SzuKai Lien Personal Page</title>
+
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="./index.html">首頁</a>
+            <a href="">關於我</a>
+            <a href="">比賽相關</a>
+            <a href="">生活</a>
+        </nav>
+    </header>
     <div>
-        <h1>this is my personal page</h1>
+        <h1>this is my personal page: &nbsp;</h1>
+        <h2>Szukai Lien &copy;</h2> 
+        <p>&#128512</p>
     </div>
+
+    <form action="">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="sky"><br />
+        <input type="submit" value="提交"><br />
+        <label for="country">Country:</label><br />
+        <select id="country" name="country">
+            <option value="Taiwan">Taiwan</option>
+            <option value="Japan">Japan</option>
+            <option value="United States">United States</option>
+            <option value="Korea">Korea</option>
+        </select><br /><br />
+        <select id="country" name="country" size="3">
+            <option value="Taiwan">Taiwan</option>
+            <option value="Japan">Japan</option>
+            <option value="United States">United States</option>
+            <option value="Korea">Korea</option>
+        </select><br />
+    </form>
+
+    <footer>
+        <p><a href="mailto:skylien0966065599@gmail.com">content me</a></p>
+    </footer>
+
 </body>
 </html>
