@@ -3,16 +3,67 @@
 <head>
     <!-- 為何會有後面那個/線呢 原因是因為如果希望XML/XHTML軟體存取您的頁面 需要那個斜線-->
     <meta charset="UTF-8" />
-    <meta name="keywords" content="連思凱, 前端工程師, lien, sky">
+    <meta name="keywords" content="連思凱, 工程師, lien, sky, 前端">
     <meta name="description" content="keep a diary for myself">
     <meta name="auther" content="Szu-Kai Lien">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="myscript.js"></script>
+    <!-- ===== CSS Files ===== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/skins/color1.css">
+    <!-- ===== JavaScript Files ===== -->
+    <script src="./js/myscript.js"></script>
+    <script src="https://kit.fontawesome.com/9534d00d72.js" crossorigin="anonymous"></script>
     <title>SzuKai Lien Personal Page</title>
 
 </head>
 <body>
+    <!-- ===== Main Container Start ===== -->
+    <div class="main-comtainer">
+        <!-- ===== Aside Start ===== -->
+        <div class="aside">
+            <div class="logo">
+                <a herf="#"><span>S</span>ky</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a herf="#" class="active"><i class="fa-solid fa-home"></i>Home</a></li>
+                <li><a herf="#"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a herf="#"><i class="fa-solid fa-list"></i> Services</a></li>
+                <li><a herf="#"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                <li><a herf="#"><i class="fa-solid fa-comments"></i> Contact</a></li>
+        </div>
+        <!-- ===== Aside End ===== -->
+        <!-- ===== Main Contant Start ===== -->
+        <div class="main-content">
+            <!-- ===== Home Select Start ===== -->
+            <section class="home section">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hello">Hello, my name is <span class="name">Sky Lien</span></h3>
+                            <h3 calss="my-profession">I'm a <span class="typing">web designer</span></h3>
+                            <p>I'm a web designer .......</p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===== Home Select End ===== -->
+        </div>
+        <!-- ===== Main Content End ===== -->
+
+    </div>
+
+    <!-- ===== Main Container End =====-->
+    
+    
+
+    <!--
     <header>
         <nav>
             <a href="./index.html">首頁</a>
@@ -49,6 +100,6 @@
     <footer>
         <p><a href="mailto:skylien0966065599@gmail.com">content me</a></p>
     </footer>
-
+-->
 </body>
 </html>

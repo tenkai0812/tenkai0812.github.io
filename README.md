@@ -4,4 +4,4 @@
 # 規格
 1. toolbar
 2. 個人資料（email, phone number, linkedin, FB, ）
-3. 
+3. add new photo
